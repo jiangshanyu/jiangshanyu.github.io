@@ -535,6 +535,10 @@ a:hover .social-icon-dribbble {
     display: block;
 }
 
+a:hover .social-icon-renren {
+    background: url('../images/social-icon-renren-over.png') no-repeat;
+}
+
 .social-icon-weibo {
     background: url('../images/social-icon-weibo.png') no-repeat;
     width: 42px;
@@ -542,8 +546,8 @@ a:hover .social-icon-dribbble {
     display: block;
 }
 
-a:hover .social-icon-rss {
-    background: url('../images/social-icon-rss-over.png') no-repeat;
+a:hover .social-icon-weibo {
+    background: url('../images/social-icon-weibo-over.png') no-repeat;
 }
 
 
