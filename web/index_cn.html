@@ -62,7 +62,7 @@ Oct.2014
                                 <li><a href="#templatemo-about">关于</a></li>
                                 <li><a href="#templatemo-research">科研</a></li>
                                 <li><a href="#templatemo-wu">武术</a></li>
-                                <li><a href="/#templatemo-biz">商业合作</a></li>
+                                <li><a href="#templatemo-biz">商业合作</a></li>
                                 <li><a href="#templatemo-portfolio">个人相片</a></li>
 <!--                                <li><a href="#templatemo-blog">BLOG</a></li>
 -->
@@ -579,33 +579,32 @@ Oct.2014
                         6px"> <b>科研项目</b></p>
 	                  <ul type="square"; style="margin-left: 10em; margin-bottom:
                               6px">
-	                    <li><p><b>ECT/ConfiMail</b></p> 
-                        <p>Enhanced certificate transparency (ECT) is a new
-                         public key infrastructure, it enables efficient
-                         certificate issuance and revocation management, and can
-                         detect misbehaviours from certificate authorities which
-                         is required to be trusted in the current PKI. It can be
-                         applied to all systems where public key cryptography is
-                         used.</p>
-                        <p>One interesting application of ECT is an easy-to-use
-                         and end-to-end encrypted email system, called
-                         "ConfiMail".  Public-key cryptography was invented to
-                         allow users to send encrypted mail; nevertheless, 35
-                         years later, in practice it is rather hard for users to
-                         encrypt their mail in a systematic way. S/MIME and PGP
-                         exist but have failed to take off, for reasons that
-                         have been published in the paper "Why Johnny can’t
-                         encrypt" and become well-understood. Numerous efforts
-                         to improve this situation have been made, but none of
-                         them simultaneously satisfy the requirements of
-                         usability (users should not be required to understand
-                         anything about keys, or to take any special actions)
-                         and security (encryption should be end-to-end, and
-                         there should be no trusted parties).  ConfiMail solves
-                         the two core problems – it allows users to send
-                         encrypted mail without having to understand anything
-                         about keys or certificates, and without having to rely
-                         on any trusted parties.</p>
+	                    <li><p><b>ECT/ConfiMail</b>
+	                    (<a href='../doc/paper/Mark-NDSS.pdf'>PDF</a>)</p>
+                        <p>Enhanced certificate transparency (ECT) 是一个全新的公
+                         钥基础设施。它不依赖任何信任机构，支持简单有效的数字证书
+                         注册，吊销，查询认证等功能，并且能够有效的检测数字证书认
+                         证机构的恶意行为和恶意虚假数字证书的存在。这是现有公钥设
+                         施所不具备的。(现有的公钥基础设施需要用户完全信任证书颁
+                         发机构，全世界有几千个证书颁发机构，大部分都是美国公司，
+                         而这些公司有可能会被政府机构强迫去攻击用户，也有可能被黑
+                         客攻击从而被黑客利用，所以现有的公钥基础设施没有办法保护
+                         用户数据安全)。ECT可以被应用到所有需要公钥密码学的电子系
+                         统。
+                         </p>
+                        <p>在ECT的基础上，我们设计了一个简单易用的端对端的电子邮
+                        件加密系统， 叫做"ConfiMail"。端对端加密时一种最佳的信息
+                        安全通信系统，保证了只有发送方和接收方才能解密传输的数据
+                        信息，而现有的大部分邮件加密系统都无法做到这一点。如果不
+                        使用端对端加密，那么大部分邮件服务器都可以解密用户邮件，
+                        这会导致个人，公司或者政府机构机密信息的泄露。我们的主旨
+                        是所有用户，只要他可以使用现有的邮件系统，比如网易邮件，
+                        雅虎邮件，谷歌邮件，微软outlook等，那他就可以在没有任何相
+                        关知识的前提下使用端对端的加密邮件。（其他端对端加密电子
+                        邮件服务，比如S/MIME或者PGP，需要用户具有相当的密码学加密
+                        解密知识和技术，更多阻碍加密邮件使用的原因请参照学术论文
+                        "Why Johnny can’t encrypt"）。
+                        </p>
                         </li>
 
                       <li><p><b>Key Usage Detection (KUD)</b></p> 
