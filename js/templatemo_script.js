@@ -35,7 +35,11 @@ jQuery(function($) {
             $(this).blur();
             return false;
         });
-
+		/*
+		var dt = window.atob('IHwgRGVzaWduOiA8YSByZWw9Im5vZm9sbG93IiBocmVmPSJodHRwOi8vd3d3LnRlbXBsYXRlbW8uY29tL3RtLTM5NS11cmJhbmljIiB0YXJnZXQ9Il9wYXJlbnQiPlVyYmFuaWM8L2E+'); // decode the string
+		var div = document.getElementById('footer-line');
+		div.innerHTML = div.innerHTML + dt;
+		*/
         // to stick navbar on top
         $('.templatemo-top-menu ').stickUp();
 
@@ -65,8 +69,8 @@ jQuery(function($) {
 
 function initialize() {
     var mapOptions = {
-      zoom: 14,
-	center: new google.maps.LatLng(49.503893, 5.947969)
+      zoom: 12,
+      center: new google.maps.LatLng(16.8451789,96.1439764)
     };
 
     var map = new google.maps.Map(document.getElementById('map-canvas'),  mapOptions);

@@ -1,10 +1,9 @@
 /* 
-templatemo.com 395 urbanic
-*/
 
-/* 
 Urbanic Template 
-http://www.templatemo.com/preview/templatemo_395_urbanic 
+
+http://www.templatemo.com/tm-395-urbanic
+
 */
 
 body, html { overflow-x:hidden; }
@@ -37,8 +36,8 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-top-bar {
-    min-height: 0px;
-    background-color:#ffffff;
+    min-height: 40px;
+    background-color:#eeeeee;
 }
 
 .templatemo-top-menu {
@@ -132,6 +131,22 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-size: 42px;
     margin: 60px 0;
     color: #333333;
+}
+
+
+/* .JYuinfo_left img { */
+/* 	margin-left:5px; */
+/* } */
+
+.JYuinfo_right form {
+    	margin-left:1000px;
+	padding-left:1500;
+	padding-right:15px
+}
+
+.tweet_txt {
+	border-left:2px solid #ffffff; 
+	min-height:160px;
 }
 
 .templatemo-service {
@@ -269,7 +284,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 }
 .templatemo-line-header {
-    margin-top:20px;
+    margin-top:100px;
     margin-bottom:80px;
 }
 
@@ -527,29 +542,6 @@ a:hover .social-icon-linkedin {
 a:hover .social-icon-dribbble {
     background: url('../images/social-icon-dribbble-over.png') no-repeat;
 }
-
-.social-icon-renren {
-    background: url('../images/social-icon-renren.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-renren {
-    background: url('../images/social-icon-renren-over.png') no-repeat;
-}
-
-.social-icon-weibo {
-    background: url('../images/social-icon-weibo.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-weibo {
-    background: url('../images/social-icon-weibo-over.png') no-repeat;
-}
-
 
 ul.templatemo-project-gallery  li  a img:hover {
     border: 3px solid #ff7600;
