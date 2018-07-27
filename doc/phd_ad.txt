@@ -1,0 +1,50 @@
+-------------------------------------------------------
+Open positions in Blockchain, PKI, and secure messaging
+-------------------------------------------------------
+
+The Cybersecurity Lab at Monash University, Melbourne, Australia, has multiple job openings for PhD students on the topic of blockchain, public key infrastructure, and secure messaging. The salary is 27K ~ 37K AUD per year, tax free.
+
+## Institution
+
+Monash is one of the prestigious "Group of Eight" universities in Australia, and is ranked 59th in the world according to the 2017 QS world university rankings. The PhD candidates will be part of the Cybersecurity Lab (https://www.monash.edu/cybersecurity-lab) at Monash University, working with Dr. Jiangshan Yu. The Cybersecurity Lab has been supported by Australian Research Council (ARC), Data 61 and a number of industry partners. It has strong collaboration between academics, industries and governments, both locally and internationally.
+
+## Our research
+
+The focus of our research has been on design and analysis of cryptographic protocols, cryptographic key management, blockchain consensus and blockchain analysis, and ledger-based applications. For example, our work, in collaboration with University of Birmingham and University of Oxford, on ledger-based end-to-end secure messaging system has attracted news media's attention and has been covered by more than 40 international and national news media including Science Daily, Phys.org, ACM TechNews, EurekAlert, Futurism, and Silicon Republic.
+
+Potential PhD research topics include but are not limited to:
+
+1. Blockchain consensus, including research in cryptocurrency and smart contract.
+2. Blockchain transaction privacy and user privacy.
+3. Network evaluation and analysis, with a focus on Blockchain.
+4. Cryptographic key management and authentication.
+5. Secure email/messaging.
+
+## Requirements
+
+- A master degree in a relevant topic, with GPA >80/100. Outstanding students with only undergraduate degree can also be consisdered, if GPA > 90/100.
+
+- Outstanding English skills, e.g., IELTS 6.5 overall (no band less than 6.0), TOEFL IBT 79 + (Reading 13, Listening 12, Speaking 18 & Writing 21)
+
+Evidence of knowledge in the following backgrounds would be beneficial:
+
+- Cryptography
+- Blockchain
+- PKI and security protocols
+- Distributed systems
+- Theorem proving
+- Fault tolerance
+- Graph theory, set theory, and combinatorics
+
+Other details can be found at https://www.monash.edu/graduate-research/future-students/apply
+
+
+## Scholarship deadline
+
+For the school scholarship, there are 4 rounds each year, 2 for international candidates which closes 31 March for Semester 2 commencement between July - December) and 31 August for Semester 1 commencement between January and June) AND 2 rounds for domestic candidates with closing date 31 May and 31 October. Domestic candidates are Australian citizen, Australian PR and New Zealand citizens.
+
+CSC (China) PhD applications are welcome.
+
+## Contact
+
+Please send all enquiries to jiangshan.yu@monash.edu if you are interested!
