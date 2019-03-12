@@ -36,7 +36,9 @@ Evidence of knowledge in the following backgrounds would be beneficial:
 - Fault tolerance
 - Graph theory, set theory, and combinatorics
 
-Other details can be found at https://www.monash.edu/graduate-research/future-students/apply
+Other details can be found at
+
+https://www.monash.edu/it/our-research/graduate-research/how-to-apply
 
 
 ## Scholarship deadline
