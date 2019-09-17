@@ -10,7 +10,7 @@ Monash is one of the prestigious "Group of Eight" universities in Australia, and
 
 ## Our research
 
-The focus of our research has been on design and analysis of cryptographic protocols, cryptographic key management, blockchain consensus and blockchain analysis, and ledger-based applications. For example, our work, in collaboration with University of Birmingham and University of Oxford, on ledger-based end-to-end secure messaging system has attracted news media's attention and has been covered by more than 40 international and national news media including Science Daily, Phys.org, ACM TechNews, EurekAlert, Futurism, and Silicon Republic. We also found security and privacy vulnerabilities in several top ranked cryptocurrencies, and reported them to the associated teams for patching.
+The focus of our research has been on design and analysis of cryptographic protocols, cryptographic key management, blockchain consensus and blockchain analysis, and ledger-based applications. For example, our research on blockchain consensus, called RepuCoin, provides the first blockchain system that is able to tolerate 51% attacks. This system may save potentially millions of US dollars every month from the attacks, and increase the confidence of enterprise in adapting blockchains. (For example, from April 2018 to Feb 2019, at least ten successful 51% attacks are identified, with a total loss of over 28 million US dollars.) This work has been reported by over 60 news media globally including Monash News, Finder, 今日头条(Toutiao), ZDNet, Sohu, BTC Wires, ScienceDaily, Ethereum World News, EurekAlert!, The US Breaking news, Homeland Security Today, etc.
 
 Potential PhD research topics include but are not limited to:
 
