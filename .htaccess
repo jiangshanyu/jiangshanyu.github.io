@@ -1,7 +1,5 @@
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^www.jiangshanyu.com$
-RewriteRule ^/?(.*)$ https://jiangshanyu.com/$1 [R=301,L]
-
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^jiangshanyu.com$ [NC]
+RewriteRule ^/?(.*)$ https://www.jiangshanyu.com/$1 [R=301,L]
