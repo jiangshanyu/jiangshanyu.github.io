@@ -10,7 +10,7 @@ body, html { overflow-x:hidden; }
 
 body {
     background-color: #ffffff;
-    font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Helvetica Neue", sans-serif;
     font-size: 12px;
 	
 	font-weight: 300; 
@@ -19,7 +19,346 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+h1, h2, h3, h4, h5, h6, span, p {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Helvetica Neue", sans-serif;
+}
+
+.academic-section {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.55;
+    scroll-margin-top: 130px;
+}
+
+.academic-section h2,
+.academic-section h3,
+.academic-section h4 {
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.academic-section h2 {
+    font-size: 26px;
+    margin: 0 0 18px;
+}
+
+.academic-section h3 {
+    font-size: 21px;
+    margin: 24px 0 8px;
+}
+
+.academic-section .section-body > h3:first-child {
+    margin-top: 0;
+}
+
+.academic-section h4 {
+    color: #444444;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 18px 0 6px;
+}
+
+.academic-section p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin: 0 0 12px;
+}
+
+.academic-section ul,
+.academic-section ol {
+    margin-bottom: 16px;
+    padding-left: 22px;
+}
+
+.academic-section li {
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.academic-section a {
+    font-weight: 400;
+}
+
+.academic-section .section-body {
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 24px;
+}
+
+.academic-section .lead-text {
+    margin-bottom: 20px;
+}
+
+.academic-section .link-row {
+    margin-bottom: 16px;
+}
+
+.academic-section .publication-list,
+.academic-section .plain-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.academic-section .publication-list li,
+.academic-section .plain-list li {
+    margin-bottom: 2px;
+}
+
+.academic-section .role-label,
+.academic-section .pub-venue {
+    font-size: inherit;
+    font-weight: 700;
+}
+
+.academic-section .subsection-list {
+    margin-bottom: 18px;
+}
+
+.academic-section .section-body span {
+    float: none;
+    margin-top: 0;
+}
+
+.academic-section .first-job {
+    color: #666666;
+    display: block;
+    font-size: 0.92em;
+    line-height: 1.45;
+    margin-top: 1px;
+}
+
+.site-logo {
+    height: 70px;
+    object-fit: fill;
+    width: 246px;
+}
+
+.primary-nav {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.profile-layout {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.profile-photo {
+    display: block;
+    height: auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+.profile-links {
+    font-size: 16px;
+    line-height: 1.45;
+    margin-top: 22px;
+    max-width: 300px;
+}
+
+.templatemo-service-item .profile-links p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 16px;
+    text-align: left;
+}
+
+.profile-links .btn {
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 8px 16px;
+}
+
+.profile-link {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-key-link {
+    font-size: 18px;
+}
+
+.profile-name {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 10px;
+}
+
+.profile-roles {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    list-style: none;
+    margin-bottom: 32px;
+    padding-left: 0;
+}
+
+.profile-roles li {
+    margin-bottom: 0;
+}
+
+.profile-roles .profile-role-group-start {
+    margin-top: 14px;
+}
+
+.profile-main {
+    padding-top: 0;
+}
+
+.about-copy {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.65;
+    max-width: 760px;
+    text-align: left;
+}
+
+.about-copy h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 28px 0 14px;
+}
+
+.about-copy h2:first-child {
+    margin-top: 0;
+}
+
+.about-copy h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 24px 0 8px;
+}
+
+.about-copy p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    margin-bottom: 16px;
+}
+
+.news-icon {
+    height: auto;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.news-panel {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    max-height: 360px;
+    overflow: auto;
+    padding-right: 12px;
+}
+
+.news-panel ul {
+    margin-bottom: 6px;
+    padding-left: 22px;
+}
+
+.news-panel li {
+    margin-bottom: 8px;
+}
+
+.news-column {
+    max-width: 760px;
+}
+
+.about-header {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.templatemo-line-header .text-center::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.templatemo-welcome .templatemo-service {
+    margin-bottom: 64px;
+    margin-top: 32px;
+}
+
+.profile-sidebar {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .site-logo {
+        height: 63px;
+        width: 220px;
+    }
+
+    .primary-nav {
+        margin-top: 12px;
+    }
+
+    .profile-layout {
+        display: block;
+    }
+
+    .profile-photo {
+        max-width: 280px;
+    }
+
+    .profile-main {
+        margin-top: 24px;
+    }
+
+    .profile-name {
+        font-size: 22px;
+    }
+
+    .profile-roles {
+        font-size: 16px;
+    }
+
+    .academic-section {
+        font-size: 16px;
+    }
+
+    .academic-section p,
+    .academic-section li {
+        font-size: 16px;
+    }
+
+    .academic-section h3 {
+        font-size: 21px;
+    }
+
+    .academic-section h4 {
+        font-size: 17px;
+    }
+
+    .academic-section .templatemo-line-header {
+        margin-bottom: 36px;
+        margin-top: 56px;
+    }
+
+    .news-panel {
+        max-height: none;
+        overflow: visible;
+        padding-right: 0;
+    }
+}
 
 * {
   -webkit-border-radius: 0 !important;
@@ -121,7 +460,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 /* ------ Welcome & Slogna ------ */
 .templatemo-welcome {
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 0;
     min-height: 230px;
 }
 
@@ -286,6 +625,16 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .templatemo-line-header {
     margin-top:100px;
     margin-bottom:80px;
+}
+
+.templatemo-line-header.about-header {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.academic-section .templatemo-line-header {
+    margin-bottom: 48px;
+    margin-top: 72px;
 }
 
 .member-thumb:hover .thumb-overlay {
