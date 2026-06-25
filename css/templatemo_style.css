@@ -354,9 +354,10 @@ h1, h2, h3, h4, h5, h6, span, p {
     }
 
     .news-panel {
-        max-height: none;
-        overflow: visible;
+        max-height: 48vh;
+        overflow: auto;
         padding-right: 0;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
