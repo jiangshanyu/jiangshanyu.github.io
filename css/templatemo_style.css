@@ -235,6 +235,45 @@ h1, h2, h3, h4, h5, h6, span, p {
     margin-top: 0;
 }
 
+.bio-details {
+    margin-bottom: 28px;
+}
+
+.bio-details summary {
+    align-items: baseline;
+    color: #333333;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0 0 14px;
+}
+
+.bio-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.bio-details .summary-title {
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.bio-details .summary-action {
+    color: #428bca;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bio-details .summary-action::before {
+    content: "(click to see more)";
+}
+
+.bio-details[open] .summary-action::before {
+    content: "(click to hide)";
+}
+
 .about-copy h3 {
     font-size: 18px;
     font-weight: 700;
@@ -255,13 +294,41 @@ h1, h2, h3, h4, h5, h6, span, p {
     width: 80px;
 }
 
+.news-scroll-wrap {
+    position: relative;
+}
+
 .news-panel {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.55;
     max-height: 360px;
-    overflow: auto;
-    padding-right: 12px;
+    overflow-y: auto;
+    padding-right: 18px;
+    scrollbar-width: none;
+}
+
+.news-panel::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.news-scroll-track {
+    background: #f3f3f3;
+    bottom: 0;
+    position: absolute;
+    right: 4px;
+    top: 0;
+    width: 5px;
+}
+
+.news-scroll-thumb {
+    background: #b5b5b5;
+    min-height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
 }
 
 .news-panel ul {
@@ -293,7 +360,7 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .templatemo-welcome .templatemo-service {
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     margin-top: 32px;
 }
 
@@ -349,14 +416,14 @@ h1, h2, h3, h4, h5, h6, span, p {
     }
 
     .academic-section .templatemo-line-header {
-        margin-bottom: 36px;
-        margin-top: 56px;
+        margin-bottom: 24px;
+        margin-top: 32px;
     }
 
     .news-panel {
         max-height: 48vh;
-        overflow: auto;
-        padding-right: 0;
+        overflow-y: auto;
+        padding-right: 18px;
         -webkit-overflow-scrolling: touch;
     }
 }
@@ -634,8 +701,8 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .academic-section .templatemo-line-header {
-    margin-bottom: 48px;
-    margin-top: 72px;
+    margin-bottom: 28px;
+    margin-top: 36px;
 }
 
 .member-thumb:hover .thumb-overlay {
